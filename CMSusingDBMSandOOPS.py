@@ -1,4 +1,12 @@
 ''''This program handles basic operations on a Customer Managaement System'''
+'''
+TABLE STRUCTURE IN CMS:
+
+CREATE TABLE cmscustomer(
+id INT PRIMARY KEY AUTO_INCREMENT,
+name VARCHAR(50) NOT NULL,
+address VARCHAR(250),
+mobile VARCHAR(15) UNIQUE NOT NULL);'''
 
 #BLL
 import pymysql
